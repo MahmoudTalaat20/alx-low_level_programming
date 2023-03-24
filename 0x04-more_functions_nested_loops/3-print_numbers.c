@@ -1,4 +1,4 @@
-include"main.h"
+#include"main.h"
 
 /**
  * print_numbers - print 0 - 9
@@ -17,4 +17,3 @@ void print_numbers(void)
 	} while (num >= 0 && num <= 9);
 	_putchar('\n');
 }
-
